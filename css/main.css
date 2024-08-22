@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+:root {
+    --bg-color: #F6F7F8;
+    --white-color: #FFFFFF; 
+    --scrollbar-color: #7E6CAB; 
+    --gray-color: #E3E4E6; 
+    --success: #01F0D0; 
+    --rep-color: #E0F3FA; 
+    --temp-color: #FFE6E9; 
+    --heart-color: #FFE6F1; 
+    --text-color: #072635; 
+    --secondary-color: #707070; 
+}
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    background: var(--scrollbar-color);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--bg-color);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--gray-color);
+}
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: Manrope;
+}
+img {
+    object-fit: cover;
+}
+.success {
+    background: var(--success);
+}
+.secondary-color {
+    color: var(--secondary-color);
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+.logo {
+    width: 150px;
+}
+.navbar, .section {
+    background-color: var(--white-color);
+}
+#navbarNav > .nav-item {
+    padding:0 12px;
+}
+.flex-1 {
+    flex:1;
+}
+.flex-2 {
+    flex:2;
+}
+.br-8 {
+    border-radius: 8px;
+}
+.br-12 {
+    border-radius: 12px;
+}
+.br-25 {
+    border-radius: 25px;
+}
+ul {
+    list-style-type:none;
+    padding: 0;
+}
+#patientsList {
+    overflow-y: scroll;
+    max-height: 500px;
+}
+.font-700 {
+    font-weight: 700;
+}
+.font-600 {
+    font-weight: 600;
+}
+.icons {
+    width: 30px;
+}
+.wd-40 {
+    width: 40px;
+}
+.wd-120 {
+    width: 120px;
+}
+.diagnosisIcon {
+    border-radius: 50%;
+    background-color: var(--white-color);
+}
+.repDiv {
+    background-color: var(--rep-color);
+}
+.tempDiv {
+    background-color: var(--temp-color);
+}
+.heartDiv {
+    background-color: var(--heart-color);
+}
+.table-no-border th, .table-no-border td {
+    border: none;
+}
+.table-no-border th {
+    background-color: var(--bg-color); 
+    border-radius:12px;
+}
+.divider {
+    height:30px;
+}
