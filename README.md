@@ -8,3 +8,4 @@ Lab Exam Scheduling: Schedule laboratory exams for patients with options to sele
 Results Tracking: Upload, view, and manage lab results securely within the platform.
 Notifications: Automated email or SMS notifications to remind patients of upcoming exams and to alert them when results are ready.
 User Roles: Different access levels for healthcare providers, lab technicians, and administrators.
+# Tech_Care
